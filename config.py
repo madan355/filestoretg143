@@ -5,13 +5,13 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7400218321:AAEszmFIC9rmUqxpLJAI1u-Qz7U9HZZ7ajw")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7400218321:AAG5fCrK9-Q1rjqg89qKFk1kYxya5T0pRWEp")
 API_ID = int(os.environ.get("API_ID", "ec1b720c2e0035a310d47ebd5655b676")
 API_HASH = os.environ.get("API_HASH", "20154522")
 
 
 OWNER_ID = int(os.environ.get("OWNER_ID", "7003079691"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://BLAZEOP123:BLAZEOP123@cluster0.kjlpd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://royalsrikanth140:n0O97ntpssfJWUjX@cluster0.788gy1y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
@@ -28,7 +28,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[7451167149]
+    ADMINS=[7003079691]
     for x in (os.environ.get("ADMINS", "7003079691").split()):
         ADMINS.append(int(x))
 except ValueError:
